@@ -1,0 +1,98 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 50px, 20px, 50px, 20px;
+}
+
+header, main {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header h1 {
+  float: left;
+  text-transform: uppercase;
+}
+
+.h1_accent {
+  color: #77a466;
+}
+
+header nav {
+  color: #77a466;
+  float: right;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+header nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 10px;
+}
+
+main {
+  clear: both;
+}
+
+main img {
+  border: 2px solid #77a466;
+  border-left: 0;
+  border-right: 0;
+}
+
+#feature_content h2 {
+  text-transform: uppercase;
+  color: #77a466;
+}
+
+#sub_content h4 {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+#sub_content p {
+  font-size: 16px;
+}
+
+.sub_one, .sub_two, .sub_three {
+  border: 1px solid #dedbdc;
+  box-sizing: border-box;
+  width: 400px;
+  padding-right: 50px;
+  padding-left: 30px;
+  float: left;
+  min-height: 207px;
+  text-align: left;
+}
+
+.sub_one {
+  border-left: 0;
+  line-height: 2.1em;
+  letter-spacing: .03em;
+}
+
+.sub_one ul li{
+  list-style-type: none;
+  margin-left: -40px;
+  color: #77a466;
+}
+
+.sub_three {
+  border-right: 0;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer h2 {
+  font-size: 18px;
+}
+
+.fresh {
+  font-family: 'Oleo Script', cursive;
+  color: #77a466;
+}
